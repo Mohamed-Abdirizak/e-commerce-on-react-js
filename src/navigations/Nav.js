@@ -4,11 +4,11 @@ import {AiOutlineAccountBook, AiOutlineShoppingCart, AiOutlineUserAdd} from 'rea
 import './Nav.css'
 import React from 'react'
 
- function Navigation() {
+ function Navigation({handleInputChange, query}) {
   return (
     <nav>
       <div className='nav-container'>
-        <input type='text' className='search-input' placeholder='Enter your search shoes.' />
+        <input type='text' className='search-input' onChange={handleInputChange} value={query} placeholder='Enter your search shoes.' />
   
       </div>
 
