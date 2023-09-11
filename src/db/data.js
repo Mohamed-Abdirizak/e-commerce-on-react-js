@@ -316,6 +316,9 @@ const data = [
     color: "black",
     category: "flats",
   },
+  
 ];
 
 export default data;
+
+

@@ -1,7 +1,7 @@
-/* .card-container{
+.card-container{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 10rem;
+    margin-left: 30rem;
     margin-top: 2rem;
     z-index: -2;
 }
@@ -12,7 +12,7 @@
     cursor: pointer;
 }
 .card-img{
-    width: 13rem;
+    width: 200px;
     height: 150px;
     margin-bottom: 1rem;
 }
@@ -40,4 +40,4 @@
 }
 .bag-icon{
     counter-reset: #535353;
-} */
+}

@@ -21,7 +21,7 @@ import React from 'react'
           <AiOutlineShoppingCart className='nav-icons' />
         </a>
         <a href='#' >
-          <AiOutlineUserAdd className='nav-icons' />
+          <AiOutlineShoppingCart className='nav-icons' />
         </a>
 
       </div>
